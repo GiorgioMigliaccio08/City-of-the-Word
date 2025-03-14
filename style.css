@@ -37,3 +37,10 @@ body {
 .nav i {
   cursor: pointer;
 }
+
+.description {
+  color: white;
+  position: absolute;
+  top: 270px;
+  left: 100px;
+}
