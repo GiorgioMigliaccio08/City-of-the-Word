@@ -41,6 +41,108 @@ body {
 .description {
   color: white;
   position: absolute;
-  top: 270px;
+  top: 320px;
   left: 100px;
+}
+
+button {
+  margin-left: 20px;
+  padding: 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+}
+
+.City {
+  display: flex;
+  position: absolute;
+  top: 340px;
+  left: 550px;
+}
+
+.card-one {
+  border: 1px solid white;
+  border-radius: 10%;
+  width: 150px;
+  height: 250px;
+  overflow: hidden;
+  background-image: url("./asset/Roma.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  margin-right: 20px;
+}
+
+.card-two {
+  border: 1px solid white;
+  border-radius: 10%;
+  width: 150px;
+  height: 250px;
+  overflow: hidden;
+  background-image: url("./asset/Parigi.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  margin-right: 20px;
+}
+.card-three {
+  border: 1px solid white;
+  border-radius: 10%;
+  width: 150px;
+  height: 250px;
+  overflow: hidden;
+  background-image: url("./asset/Egitto.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  margin-right: 20px;
+}
+.card-four {
+  border: 1px solid white;
+  border-radius: 10%;
+  width: 150px;
+  height: 250px;
+  overflow: hidden;
+  background-image: url("./asset/New\ York.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  margin-right: 20px;
+}
+.card-five {
+  border: 1px solid white;
+  border-radius: 10%;
+  width: 150px;
+  height: 250px;
+  overflow: hidden;
+  background-image: url("./asset/Dubai.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  margin-right: 20px;
+}
+
+.card-content {
+  padding: 5px;
 }
