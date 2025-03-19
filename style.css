@@ -172,23 +172,18 @@ button {
 }
 
 .button {
+  display: flex;
+  flex-direction: row;
   position: absolute;
   top: 650px;
   left: 540px;
 }
 
 .button button {
-  border-radius: 50%;
+  border-radius: 100%;
   padding: 20px;
 }
 
-.line {
-  position: absolute;
-  top: 650px;
-  left: 590px;
-}
-
 hr {
-  width: 80%;
-  border: 1px solid white;
+  border: 3px solid white;
 }
