@@ -21,14 +21,14 @@ body {
   padding: 15px 50px;
   box-sizing: border-box;
   font-family: "Big Shoulders";
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   font-family: "Big Shoulders";
-  font-size: 25px;
+  font-size: 22px;
   gap: 10px;
 }
 
@@ -37,7 +37,7 @@ body {
   align-items: center;
   gap: 30px;
   font-family: "Big Shoulders";
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .nav p,
@@ -174,9 +174,11 @@ button {
 .button {
   display: flex;
   flex-direction: row;
+  align-items: center;
   position: absolute;
   top: 650px;
   left: 540px;
+  gap: 10px;
 }
 
 .button button {
@@ -184,6 +186,19 @@ button {
   padding: 20px;
 }
 
-hr {
-  border: 3px solid white;
+.button hr {
+  flex-grow: 1;
+  height: 1px;
+  background-color: white;
+  border: none;
+  width: 600px;
+  margin-left: 105px;
+}
+
+.button .number {
+  margin-left: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  color: white;
+  font-weight: bold;
 }
