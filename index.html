@@ -8,11 +8,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-
     <title>City Of The World</title>
   </head>
   <body>
@@ -29,54 +24,80 @@
         <i class="fa-solid fa-user"></i>
       </div>
     </div>
+
     <div class="content">
       <div class="description">
         <p>Italian - City</p>
         <h1>Roma</h1>
         <p>Capitale Italiana ricca di cultura e paesaggi.</p>
-        <div>
-          <i class="fa-regular fa-bookmark"></i>
-          <button>More info</button>
-        </div>
       </div>
+
       <div class="City">
-        <div class="card-one">
+        <div
+          class="card"
+          data-city="Roma"
+          data-image="./asset/Roma.jpg"
+          style="background-image: url('./asset/Roma.jpg')"
+        >
           <div class="card-content">
-            <p>Lorem, ipsum</p>
+            <p>Capitale Italiana</p>
             <h3>Roma</h3>
           </div>
         </div>
-        <div class="card-two">
+        <div
+          class="card"
+          data-city="Parigi"
+          data-image="./asset/Parigi.jpg"
+          style="background-image: url('./asset/Parigi.jpg')"
+        >
           <div class="card-content">
-            <p>Lorem, ipsum</p>
+            <p>Città dell'Amore</p>
             <h3>Parigi</h3>
           </div>
         </div>
-        <div class="card-three">
+        <div
+          class="card"
+          data-city="Egitto"
+          data-image="./asset/Egitto.jpg"
+          style="background-image: url('./asset/Egitto.jpg')"
+        >
           <div class="card-content">
-            <p>Lorem, ipsum</p>
+            <p>Terra delle Piramidi</p>
             <h3>Egitto</h3>
           </div>
         </div>
-        <div class="card-four">
+        <div
+          class="card"
+          data-city="New York"
+          data-image="./asset/New York.jpg"
+          style="background-image: url('./asset/New York.jpg')"
+        >
           <div class="card-content">
-            <p>Lorem, ipsum</p>
+            <p>La Grande Mela</p>
             <h3>New York</h3>
           </div>
         </div>
-        <div class="card-five">
+        <div
+          class="card"
+          data-city="Dubai"
+          data-image="./asset/Dubai.jpg"
+          style="background-image: url('./asset/Dubai.jpg')"
+        >
           <div class="card-content">
-            <p>Lorem, ipsum</p>
+            <p>Futuro e Lusso</p>
             <h3>Dubai</h3>
           </div>
         </div>
       </div>
     </div>
+
     <div class="button">
-      <button><i class="fa-solid fa-chevron-left"></i></i></button>
-      <button><i class="fa-solid fa-chevron-right"></i></button>
-      <hr>
+      <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+      <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+      <hr />
       <span class="number">01</span>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
