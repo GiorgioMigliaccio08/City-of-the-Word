@@ -15,8 +15,7 @@ body {
   align-items: center;
   justify-content: space-between;
   color: white;
-  background: transparent;
-  backdrop-filter: blur(10px);
+
   position: fixed;
   width: 100%;
   padding: 15px 50px;
@@ -91,7 +90,7 @@ body {
   align-items: center;
   position: absolute;
   top: 650px;
-  left: 540px;
+  left: 550px;
   gap: 10px;
 }
 
@@ -110,7 +109,7 @@ body {
   background-color: white;
   border: none;
   width: 600px;
-  margin-left: 150px;
+  margin-left: 130px;
 }
 
 .button .number {
