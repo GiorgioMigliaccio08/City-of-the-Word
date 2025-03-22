@@ -8,6 +8,12 @@ body {
   height: 100vh;
   margin: 0;
   transition: background 0.5s ease-in-out;
+  padding: 0;
+}
+
+.Home {
+  height: 100vh;
+  position: relative;
 }
 
 .navbar {
@@ -117,4 +123,22 @@ body {
   font-size: 42px;
   color: white;
   font-weight: bold;
+}
+
+.city {
+  text-align: center;
+  padding: 50px 20px;
+  background: #222;
+  color: white;
+  font-family: "Big Shoulders";
+}
+
+.city h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.city-content {
+  margin-top: 20px;
+  font-size: 22px;
 }
