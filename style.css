@@ -151,7 +151,7 @@ body {
   padding: 50px 0;
 }
 
-.place-card {
+.place-card-one {
   width: 250px;
   height: 350px;
   background-size: cover;
@@ -166,14 +166,377 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(asset/Roma.jpg);
 }
-
-.place-card:hover {
-  transform: scale(1.05);
+.place-card-two {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.cosavederearoma.com/wp-content/uploads/2018/04/Fontana-di-Trevi.jpg);
+}
+.place-card-three {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ongSgiCZ5nuUawWPbCb1fcy8WkS7DPxMpA&s);
+}
+.place-card-four {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://vittoriocasale.it/wp-content/uploads/2021/10/Fontane-di-Piazza-Navona-IMG.jpg);
+}
+.place-card-five {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/santangelo-fortress-rome-royalty-free-image-471072894-1567525050.jpg);
+}
+.place-card-six {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-staNO0grzhX1jAmxCTHV8vzAEx8KBekKtg&s);
+}
+.place-card-seven {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.franciaturismo.net/wp-content/uploads/sites/4/parigi-louvre-piramide-thumbnail.jpg);
+}
+.place-card-height {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.franciaturismo.net/wp-content/uploads/sites/4/parigi-sacro-cuore-hd.jpg);
+}
+.place-card-nine {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://parisconcarlo.com/wp-content/uploads/2012/11/notre-dame-de-paris-1.jpg);
+}
+.place-card-ten {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRyJwZ7eGF9wCjTRYW0KeOnIPyb2tHI6cYA&s);
+}
+.place-card-eleven {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg);
 }
 
-.place-card .card-content {
-  background: rgba(0, 0, 0, 0.6);
+.place-card-twelve {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
   padding: 10px;
-  border-radius: 5px;
-  text-align: center;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.viaggioinegitto.com/images/karnak-temple.jpg);
+}
+
+.place-card-thirteen {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/60/Tutankhamun%27s_tomb_in_Valley_of_the_Kings_01.jpg);
+}
+
+.place-card-fourteen {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.iviaggidelmilione.it/wp-content/uploads/2021/03/ABU-SIMBEL-1.jpg);
+}
+
+.place-card-fifteen {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.luoghidiinteresse.it/wp-content/uploads/2015/07/Il-Museo-egizio-del-Cairo.jpg);
+}
+
+.place-card-sixteen {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg);
+}
+
+.place-card-seventeen {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.nytimes.com/guides/assets/photos/times-square-hero-1518560843626-superJumbo.jpg);
+}
+
+.place-card-eighteen {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.centralparknyc.org/assets/images/visit/Visit-Hero-Image-Summer-Aerial.jpg);
+}
+
+.place-card-nineteen {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a3/Empire_State_Building_.jpg);
+}
+
+.place-card-twenty {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/NYC_-_Brooklyn_Bridge.jpg/1200px-NYC_-_Brooklyn_Bridge.jpg);
+}
+
+.place-card-twentyone {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/93/Burj_Khalifa.jpg);
+}
+
+.place-card-twentytwo {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.visitdubai.com/-/media/gathercontent/poi/p/palm-jumeirah/fallback-image/palm-jumeirah-hero-thumbnail.jpg);
+}
+
+.place-card-twentythree {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.myguidedubai.com/images/articles/20191126093330.jpg);
+}
+
+.place-card-twentyfour {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/92/Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg);
+}
+
+.place-card-twentyfive {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  color: white;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  background-image: url(https://www.planetware.com/wpimages/2020/02/united-arab-emirates-dubai-top-attractions-dubai-fountain.jpg);
 }
