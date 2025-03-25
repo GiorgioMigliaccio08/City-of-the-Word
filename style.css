@@ -40,6 +40,7 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
+  font-size: 25px;
 }
 
 .nav p,
@@ -186,7 +187,14 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(asset/Roma.jpg);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.place-card-one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
+
 .place-card-two {
   width: 250px;
   height: 350px;
@@ -201,6 +209,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://www.cosavederearoma.com/wp-content/uploads/2018/04/Fontana-di-Trevi.jpg);
+}
+.place-card-two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 .place-card-three {
   width: 250px;
@@ -217,6 +229,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ongSgiCZ5nuUawWPbCb1fcy8WkS7DPxMpA&s);
 }
+.place-card-three:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 .place-card-four {
   width: 250px;
   height: 350px;
@@ -231,6 +247,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://vittoriocasale.it/wp-content/uploads/2021/10/Fontane-di-Piazza-Navona-IMG.jpg);
+}
+.place-card-four:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 .place-card-five {
   width: 250px;
@@ -247,6 +267,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://hips.hearstapps.com/hmg-prod/images/santangelo-fortress-rome-royalty-free-image-471072894-1567525050.jpg);
 }
+.place-card-five:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 .place-card-six {
   width: 250px;
   height: 350px;
@@ -261,6 +285,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-staNO0grzhX1jAmxCTHV8vzAEx8KBekKtg&s);
+}
+.place-card-six:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 .place-card-seven {
   width: 250px;
@@ -277,6 +305,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://www.franciaturismo.net/wp-content/uploads/sites/4/parigi-louvre-piramide-thumbnail.jpg);
 }
+.place-card-seven:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 .place-card-height {
   width: 250px;
   height: 350px;
@@ -291,6 +323,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://www.franciaturismo.net/wp-content/uploads/sites/4/parigi-sacro-cuore-hd.jpg);
+}
+.place-card-height:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 .place-card-nine {
   width: 250px;
@@ -307,6 +343,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://parisconcarlo.com/wp-content/uploads/2012/11/notre-dame-de-paris-1.jpg);
 }
+.place-card-nine:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 .place-card-ten {
   width: 250px;
   height: 350px;
@@ -322,6 +362,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZRyJwZ7eGF9wCjTRYW0KeOnIPyb2tHI6cYA&s);
 }
+.place-card-ten:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 .place-card-eleven {
   width: 250px;
   height: 350px;
@@ -336,6 +380,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg);
+}
+.place-card-eleven:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 
 .place-card-twelve {
@@ -353,6 +401,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://images.memphistours.com/large/2bf2bde2e0ece6aa0f74b9c1278a74e6.jpg);
 }
+.place-card-twelve:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 
 .place-card-thirteen {
   width: 250px;
@@ -368,6 +420,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill/multitenacy/articles/2024-04-18-08-47-39-66620de2bb75a9.webp);
+}
+.place-card-thirteen:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 
 .place-card-fourteen {
@@ -385,6 +441,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hiSVRcere_ygA12mrtuyNN5gguzY51Y7Uw&s);
 }
+.place-card-fourteen:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 
 .place-card-fifteen {
   width: 250px;
@@ -400,6 +460,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/06/ee/98/76.jpg);
+}
+.place-card-fifteen:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 
 .place-card-sixteen {
@@ -417,6 +481,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg);
 }
+.place-card-sixteen:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 
 .place-card-seventeen {
   width: 250px;
@@ -432,6 +500,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cUuNTp1SUCUPxNIUO4nT5ja_BIhcdwY9WQ&s);
+}
+.place-card-seventeen:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 
 .place-card-eighteen {
@@ -449,6 +521,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeXh22FH3k62nTDuqPyJ2NddqGA1EVpgtHg&s);
 }
+.place-card-eighteen:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 
 .place-card-nineteen {
   width: 250px;
@@ -464,6 +540,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4cU93qUlyPA9ogGSOf97cUffII5xdrTYvKQ&s);
+}
+.place-card-nineteen:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 
 .place-card-twenty {
@@ -481,6 +561,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://vivinewyorkcity.it/images/vivinewyorkcity/Ponte-di-brooklyn/ponte-di-brooklyn-alba-foto-di-ccho-via-flickr.jpg);
 }
+.place-card-twenty:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 
 .place-card-twentyone {
   width: 250px;
@@ -496,6 +580,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg);
+}
+.place-card-twentyone:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 
 .place-card-twentytwo {
@@ -513,6 +601,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://blog.sothebysrealty.ae/hubfs/Imported_Blog_Media/a8e16726-b773-404e-9bef-dc26e0b13270.jpg);
 }
+.place-card-twentytwo:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 
 .place-card-twentythree {
   width: 250px;
@@ -528,6 +620,10 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSilEspyUsc1jsyho14oTymFVXhN6QeTfwnvg&s);
+}
+.place-card-twentythree:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
 }
 
 .place-card-twentyfour {
@@ -545,6 +641,10 @@ body {
   transition: transform 0.3s ease-in-out;
   background-image: url(https://www.visitdubai.com/-/media/gathercontent/poi/b/burj-al-arab/fallback-image/burj-al-arab-1-dtcm.jpg);
 }
+.place-card-twentyfour:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
 
 .place-card-twentyfive {
   width: 250px;
@@ -560,4 +660,77 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/15/10/33/cb.jpg);
+}
+.place-card-twentyfive:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.5);
+}
+
+/*FOOTER*/
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-social {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-about h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 8px 0;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #f4a261;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 22px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #f4a261;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
 }
