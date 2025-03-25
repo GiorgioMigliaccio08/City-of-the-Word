@@ -40,3 +40,18 @@ document.addEventListener("DOMContentLoaded", function () {
     updateBackground();
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav p");
+
+  navItems.forEach((item) => {
+    item.addEventListener("click", function () {
+      const sectionName = item.textContent.toLowerCase();
+      const section = document.querySelector(`.${sectionName}`);
+
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  });
+});

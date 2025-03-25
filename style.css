@@ -47,6 +47,27 @@ body {
   cursor: pointer;
 }
 
+.nav p {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav p::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+
+.nav p:hover::after {
+  width: 100%;
+}
+
 .description {
   color: white;
   position: absolute;
