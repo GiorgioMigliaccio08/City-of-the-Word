@@ -128,7 +128,7 @@ body {
 .city {
   text-align: center;
   padding: 50px 20px;
-  background: #3f3f3c;
+  background-image: url(https://img.freepik.com/vettori-gratuito/blu-poligonale-astratto_1053-369.jpg);
   color: white;
   font-family: "Big Shoulders";
 }
@@ -330,7 +330,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://www.viaggioinegitto.com/images/karnak-temple.jpg);
+  background-image: url(https://images.memphistours.com/large/2bf2bde2e0ece6aa0f74b9c1278a74e6.jpg);
 }
 
 .place-card-thirteen {
@@ -346,7 +346,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/60/Tutankhamun%27s_tomb_in_Valley_of_the_Kings_01.jpg);
+  background-image: url(https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill/multitenacy/articles/2024-04-18-08-47-39-66620de2bb75a9.webp);
 }
 
 .place-card-fourteen {
@@ -362,7 +362,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://www.iviaggidelmilione.it/wp-content/uploads/2021/03/ABU-SIMBEL-1.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-hiSVRcere_ygA12mrtuyNN5gguzY51Y7Uw&s);
 }
 
 .place-card-fifteen {
@@ -378,7 +378,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://www.luoghidiinteresse.it/wp-content/uploads/2015/07/Il-Museo-egizio-del-Cairo.jpg);
+  background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/06/ee/98/76.jpg);
 }
 
 .place-card-sixteen {
@@ -410,7 +410,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://www.nytimes.com/guides/assets/photos/times-square-hero-1518560843626-superJumbo.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1cUuNTp1SUCUPxNIUO4nT5ja_BIhcdwY9WQ&s);
 }
 
 .place-card-eighteen {
@@ -426,7 +426,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://www.centralparknyc.org/assets/images/visit/Visit-Hero-Image-Summer-Aerial.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeXh22FH3k62nTDuqPyJ2NddqGA1EVpgtHg&s);
 }
 
 .place-card-nineteen {
@@ -442,7 +442,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a3/Empire_State_Building_.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4cU93qUlyPA9ogGSOf97cUffII5xdrTYvKQ&s);
 }
 
 .place-card-twenty {
@@ -458,7 +458,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/NYC_-_Brooklyn_Bridge.jpg/1200px-NYC_-_Brooklyn_Bridge.jpg);
+  background-image: url(https://vivinewyorkcity.it/images/vivinewyorkcity/Ponte-di-brooklyn/ponte-di-brooklyn-alba-foto-di-ccho-via-flickr.jpg);
 }
 
 .place-card-twentyone {
@@ -474,7 +474,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/93/Burj_Khalifa.jpg);
+  background-image: url(https://cdn-imgix.headout.com/collection-card-image/158/image/09c609a1134ea7b034ee4cbd61bdbba5-158-dubai-002-dubai-burj-khalifa-01.jpg);
 }
 
 .place-card-twentytwo {
@@ -490,7 +490,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://www.visitdubai.com/-/media/gathercontent/poi/p/palm-jumeirah/fallback-image/palm-jumeirah-hero-thumbnail.jpg);
+  background-image: url(https://blog.sothebysrealty.ae/hubfs/Imported_Blog_Media/a8e16726-b773-404e-9bef-dc26e0b13270.jpg);
 }
 
 .place-card-twentythree {
@@ -506,7 +506,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://www.myguidedubai.com/images/articles/20191126093330.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSilEspyUsc1jsyho14oTymFVXhN6QeTfwnvg&s);
 }
 
 .place-card-twentyfour {
@@ -522,7 +522,7 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/92/Burj_Al_Arab%2C_Dubai%2C_by_Joi_Ito_Dec2007.jpg);
+  background-image: url(https://www.visitdubai.com/-/media/gathercontent/poi/b/burj-al-arab/fallback-image/burj-al-arab-1-dtcm.jpg);
 }
 
 .place-card-twentyfive {
@@ -538,5 +538,5 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
-  background-image: url(https://www.planetware.com/wpimages/2020/02/united-arab-emirates-dubai-top-attractions-dubai-fountain.jpg);
+  background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/15/10/33/cb.jpg);
 }
