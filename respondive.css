@@ -1,10 +1,10 @@
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 4000px) {
   .navbar {
     font-size: 38px;
   }
 
   .logo {
-    font-size: 30px;
+    font-size: 80px;
     gap: 30px;
   }
 
@@ -13,11 +13,11 @@
   }
 
   .description {
-    top: 380px;
+    top: 580px;
     left: 80px;
   }
   .description h1 {
-    font-size: 150px;
+    font-size: 250px;
   }
 
   .description p {
@@ -26,7 +26,7 @@
 
   .City {
     top: 440px;
-    left: 650px;
+    left: 850px;
     font-size: 23px;
   }
 
