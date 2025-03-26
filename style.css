@@ -48,6 +48,10 @@ body {
   cursor: pointer;
 }
 
+.nav i:hover {
+  font-size: 30px;
+}
+
 .nav p {
   position: relative;
   padding-bottom: 5px;
