@@ -738,3 +738,49 @@ footer {
   border-top: 1px solid #444;
   padding-top: 10px;
 }
+
+/* Animazione di fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animazione slide da sinistra */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animazione per le card */
+.card,
+.place-card-one,
+.place-card-two,
+.place-card-three {
+  animation: fadeIn 3s ease-in-out;
+}
+
+/* Navbar animata */
+.navbar {
+  animation: slideInLeft 2s ease-in-out;
+}
+
+.description {
+  animation: slideInLeft 2s ease-in-out;
+}
+
+/* Footer animato */
+footer {
+  animation: fadeIn 1.5s ease-in-out;
+}
