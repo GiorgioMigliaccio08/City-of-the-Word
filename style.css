@@ -778,6 +778,10 @@ footer {
   animation: slideInLeft 2s ease-in-out;
 }
 
+.city {
+  animation: fadeIn 2s ease-in-out;
+}
+
 footer {
   animation: fadeIn 1.5s ease-in-out;
 }
