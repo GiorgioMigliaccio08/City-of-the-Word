@@ -36,6 +36,10 @@ body {
   gap: 10px;
 }
 
+.logo:hover {
+  font-size: 23px;
+}
+
 .nav {
   display: flex;
   align-items: center;
