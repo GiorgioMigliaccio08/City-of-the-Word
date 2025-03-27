@@ -763,7 +763,6 @@ footer {
   }
 }
 
-/* Animazione per le card */
 .card,
 .place-card-one,
 .place-card-two,
@@ -771,7 +770,6 @@ footer {
   animation: fadeIn 3s ease-in-out;
 }
 
-/* Navbar animata */
 .navbar {
   animation: slideInLeft 2s ease-in-out;
 }
@@ -780,7 +778,6 @@ footer {
   animation: slideInLeft 2s ease-in-out;
 }
 
-/* Footer animato */
 footer {
   animation: fadeIn 1.5s ease-in-out;
 }
