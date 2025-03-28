@@ -701,7 +701,7 @@ footer {
 }
 
 .footer-about h3 {
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
@@ -715,6 +715,7 @@ footer {
 }
 
 .footer-links ul li a {
+  font-size: 18px;
   color: white;
   text-decoration: none;
   transition: color 0.3s;
@@ -726,7 +727,7 @@ footer {
 
 .social-icons a {
   color: white;
-  font-size: 22px;
+  font-size: 24px;
   margin: 0 10px;
   transition: transform 0.3s;
 }
@@ -738,7 +739,7 @@ footer {
 
 .footer-bottom {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 18px;
   border-top: 1px solid #444;
   padding-top: 10px;
 }
