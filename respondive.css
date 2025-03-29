@@ -13,20 +13,20 @@
     top: 50px;
   }
   .logo h3 {
-    font-size: 40px;
+    font-size: 25px;
   }
 
   .nav {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    font-size: 18px;
+    gap: 20px;
+    font-size: 20px;
   }
 
   /* Contenuto principale */
   .content .description {
     position: absolute;
-    top: 270px;
+    top: 250px;
     left: 70px;
     flex-direction: column;
     text-align: center;
@@ -65,7 +65,7 @@
 
 .button {
   position: absolute;
-  top: 600px;
+  top: 550px;
   left: 120px;
   display: flex;
   justify-content: center;
